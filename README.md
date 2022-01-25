@@ -75,7 +75,7 @@ Here the model seems to converge in a fixed loss after 49 epochs both for traini
 
 2. A better model (regmodl2) has been designed that actually overfits the data. The model has 3 hidden layers.
 <ul>
-  <li>•	The input layer consists of 12 processing elements as there are 12 attributes. </li>
+  <li>The input layer consists of 12 processing elements as there are 12 attributes. </li>
   <li>The first hidden layer contains 64 processing elements and the activation function is selected as ‘relu’. </li>
   <li>The second hidden layer contains 64 processing elements, and the activation function is selected as ‘relu’. </li>
   <li>The third hidden layer consists of 64 processing elements, and the activation function is chosen as ‘relu’. ‘relu’ is used to avoid vanishing gradient. </li>
